@@ -1,0 +1,31 @@
+// features
+.features{
+    &:hover &__thumb img{
+        transform: scale(1.05);
+    }
+    &__thumb{
+        img{
+            @include transition(.3s);
+        }
+    }
+    &__content{
+        & h3{
+            font-size: 20px;
+            font-weight: 700;
+        }
+        & a{
+            color:$black-soft-light;
+            font-size: 13px;
+            text-transform: uppercase;
+            font-weight: 700;
+            &:hover{
+                color:$theme-color
+            }
+            & i{
+                margin-left: 5px;
+                position: relative;
+                top: 1px;
+            }
+        }
+    }
+}

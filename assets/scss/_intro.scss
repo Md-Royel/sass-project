@@ -1,0 +1,17 @@
+.intro-area{
+    .intro-img{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 50%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+    .intro-part{
+        p{
+            padding: 0;
+            margin-bottom: 40px;
+        }
+    }
+}
